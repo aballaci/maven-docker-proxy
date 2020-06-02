@@ -1,6 +1,8 @@
 # maven-docker-proxy
 local maven proxy for multistage docker builds
 
+This approach is 3-4 times faster then anything i've tried e.g RUN mvn dependency:go-offline
+
 The most portable solution till now seems to be a local nexus image running locally proxying the dependency downloads.
 
 The problem with a prepackaged image that already has the dependencies is that you will have to first rebuild the image builder before you run your multistage maven build for the project.
