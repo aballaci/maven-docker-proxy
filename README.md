@@ -34,3 +34,6 @@ in your Dockerfile copy the [settings file](settings.xml)
 
 [Nexus 3 step by step proxy](https://help.sonatype.com/learning/repository-manager-3/first-time-installation-and-setup/lesson-2%3A-proxy-and-hosted-maven-repositories)
 
+here you can finde an example for a springboot application that uses a skaffold build for the local Kubernetes Cluster.
+[github project](https://github.com/aballaci/springboot-jpa-sakila)
+
