@@ -23,5 +23,10 @@ Create a Repository Group
 
 add a settings file that mirrors all repos and points them to the Repository Group
 
+in your Dockerfile copy the [settings file](settings.xml)
+
+COPY settings.xml "/root/.m2/settings.xml"
+...
+
 [Nexus 3 step by step proxy](https://help.sonatype.com/learning/repository-manager-3/first-time-installation-and-setup/lesson-2%3A-proxy-and-hosted-maven-repositories)
 
