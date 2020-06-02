@@ -1,5 +1,5 @@
-# maven-docker-proxy
-local maven proxy for multistage docker builds
+# Maven Dependencies Proxy for Docker Multistage Builds
+Local maven cache setup
 
 This approach is 3-4 times faster then anything i've tried e.g RUN mvn dependency:go-offline
 
