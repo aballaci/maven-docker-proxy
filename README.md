@@ -37,3 +37,4 @@ in your Dockerfile copy the [settings file](settings.xml)
 here you can finde an example for a springboot application that uses a skaffold build for the local Kubernetes Cluster.
 [github project](https://github.com/aballaci/springboot-jpa-sakila)
 
+![screenshot](nexus.png)
