@@ -16,8 +16,10 @@ Create a persistent volume:
 Run the image
 ```$ docker run -d -p 8081:8081 --name nexus -v nexus-data:/nexus-data sonatype/nexus3```
 
-docker exec -it <container-id> bash
-cat /nexus-data/admin.password
+Get in the container console:
+```docker exec -it <container-id> bash```
+
+```cat /nexus-data/admin.password```
 
 Create a Repository Group
 
@@ -25,7 +27,7 @@ add a settings file that mirrors all repos and points them to the Repository Gro
 
 in your Dockerfile copy the [settings file](settings.xml)
 
-COPY settings.xml "/root/.m2/settings.xml"
+```COPY settings.xml "/root/.m2/settings.xml"```
 ...
 
 [Nexus 3 step by step proxy](https://help.sonatype.com/learning/repository-manager-3/first-time-installation-and-setup/lesson-2%3A-proxy-and-hosted-maven-repositories)
